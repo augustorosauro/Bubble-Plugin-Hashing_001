@@ -1,0 +1,24 @@
+{
+    "category": "plugins",
+    "display": "*Hash_256_File_W",
+    "fields": {
+        "AAH": {
+            "caption": "File para Hash",
+            "default_val": "//meta-q.cdn.bubble.io/f1704907572426x590907306652429000/ilovepdf_images-extracted.zip",
+            "editor": "DynamicValue",
+            "name": "myfile",
+            "rank": 0,
+            "value": "file"
+        }
+    },
+    "return_value": {
+        "AAJ": {
+            "caption": "hex",
+            "name": "hex",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": false
+}
